@@ -14,13 +14,13 @@ Open `hw4.Rproj`, then source `code/run_everything.R`.
 <!-- TODO: the table 2_clean_stories.R prints (also in data/filter_counts.csv), plus the stories the model called climate -->
 | step | stories |
 |---|---|
-| all items in the archive, Jan 1988 - Oct 2026 | |
-| carry a climate subject tag | |
-| type_of_material is News | |
-| not a blog post | |
-| not a duplicate | |
-| read by the model (at most 100 a year) | |
-| the model says climate is the main subject | |
+| all items in the archive, Jan 1988 - Oct 2026 | 3,435,087 |
+| carry a climate subject tag | 16,516 |
+| type_of_material is News | 11,550 |
+| not a blog post | 10,410 |
+| not a duplicate | 10,395 |
+| read by the model (at most 100 a year) | 2,930 |
+| the model says climate is the main subject | 1,787 |
 
 ## How the scripts find what they read
 <!-- TODO (your words, one line each; HW3 lost a point for leaving this out): how each pattern finds what it should, and why it is written that way. All of them are in the scripts' parameter sections -->
@@ -52,11 +52,14 @@ Open `hw4.Rproj`, then source `code/run_everything.R`.
 | 5_hand_check.R:29 | my climate labels are yes or no | |
 | 5_hand_check.R:30 | my warming labels are allowed, and empty on "no" stories | |
 | 5_hand_check.R:36 | every hand-labelled story has a model label | |
-| 6_make_figure.R:65 | stories_per_year.csv has every year | |
-| 6_make_figure.R:66 | labels.csv has every year | |
-| 6_make_figure.R:82 | NASA has a temperature for every year | |
-| 6_make_figure.R:112 | the panels fit in the figure | |
-| functions.R:19 | a file already downloaded (NASA) is not downloaded again | |
+| 6_make_figure.R:83 | stories_per_year.csv has every year | |
+| 6_make_figure.R:84 | labels.csv has every year | |
+| 6_make_figure.R:100 | NASA has a temperature for every year | |
+| 6_make_figure.R:133 | the nameplate image has a gap between its words | |
+| 6_make_figure.R:143 | the panels fit in the figure | |
+| 6_make_figure.R:164 | no year has more climate stories than the 0-800 axis | |
+| 6_make_figure.R:170 | every event label sits above its bar | |
+| functions.R:19 | a file already downloaded (NASA, the nameplate) is not downloaded again | |
 | functions.R:46 | a story already answered is not sent to the model again | |
 
 ## The model
