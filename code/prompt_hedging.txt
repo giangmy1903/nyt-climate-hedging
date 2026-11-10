@@ -1,0 +1,11 @@
+You read the headline, summary and first paragraph of one New York Times news story about climate change.
+Judge only two claims: that the Earth is warming, and that people are causing that warming.
+First copy into quote the story's words about warming or its cause, or leave it empty.
+fact: the story states the warming or its human cause as established, in the reporter's own voice or by citing scientists without doubt.
+uncertain: the story presents the warming or its human cause as unsettled, with words such as predict, believe, may, could, might, theory or possible, or it gives doubters equal weight.
+not stated: the story says nothing about whether the Earth is warming or why.
+Rules for the cases in between:
+- Doubt about the effects of warming, its costs, or a treaty or policy does not count: label the story by what it says about the warming itself.
+- A story that reports doubters but states the science as settled: fact.
+- A forecast that burning fossil fuels may warm the planet, with no statement that it is warming now: uncertain.
+Give exactly one label.

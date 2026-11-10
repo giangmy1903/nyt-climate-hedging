@@ -1,0 +1,3 @@
+You read the headline, summary and first paragraph of one New York Times news story.
+yes: the story's main subject is climate change: global warming, the greenhouse gases that cause it, or the science, treaties, policies or damage tied to it.
+no: climate change comes up only in passing in a story mainly about something else, such as energy prices, an election, a business deal or one day's weather.
