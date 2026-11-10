@@ -15,7 +15,7 @@ source("code/functions.R", local = TRUE)       # save_replies(), check()
 MODEL        <- "qwen3.5:4b-q4_K_M"   # the model file, written once. This laptop has 8 GB: the 4b file, not the 9b
 MODEL_PARAMS <- params(temperature = 0, seed = 6850, reasoning_effort = "none")   # same reply every run; thinking off
 TEST_RUN       <- TRUE                # TRUE: only the 30 stories in data/hand_check.csv (timing, prompt checks)
-PROMPT_VERSION <- "v1"                # change it with every edit to a prompt file: each version's replies stay apart
+PROMPT_VERSION <- "v2"                # change it with every edit to a prompt file: each version's replies stay apart
 CLIMATE_PROMPT <- paste(readLines("code/prompt_climate.txt"), collapse = "\n")
 HEDGING_PROMPT <- paste(readLines("code/prompt_hedging.txt"), collapse = "\n")
 CLIMATE_LABELS <- c("yes", "no")                         # the only answers allowed to question 1
