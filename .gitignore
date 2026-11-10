@@ -1,0 +1,11 @@
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+*.part
+# the NYT's terms forbid sharing its text: the months, the sample, the hand-check sheet...
+data/
+# ...and the model's replies, which quote the stories
+replies/
+# my own study guide, not part of the submission
+GUIDE.md
