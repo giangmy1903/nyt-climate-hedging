@@ -74,7 +74,7 @@ Without an NYT key, `run_everything.R` only redraws the figure, from the two com
 
 ## Credits
 
-- **Course:** a project for AEM 6850 at Cornell University (Fall 2026), taught by Ariel Ortiz-Bobea. The question, the target figure's design and the course's coding conventions are from the course.
+- **Course:** a project for AEM 6850 at Cornell University (Fall 2026), taught by Professor Ariel Ortiz-Bobea. The question, the target figure's design and the course's coding conventions are from the course.
 - **Data:**
   - [NYT Archive API](https://developer.nytimes.com/)
   - [NASA GISTEMP v4](https://data.giss.nasa.gov/gistemp/)
